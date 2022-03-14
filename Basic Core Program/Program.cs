@@ -12,6 +12,7 @@
             Console.WriteLine("Choose 4 for Harmonics");
             Console.WriteLine("Choose 5 for Factors");
             Console.WriteLine("Choose 6 for  QuotientAndRemainder ");
+            Console.WriteLine("Choose 7 for Swap two numbers");
 
 
             int Option = int.Parse(Console.ReadLine());
@@ -41,6 +42,10 @@
                 case 6:
                     QuotientAndRemainder quotientremainder = new QuotientAndRemainder();
                     quotientremainder.QuotientRemainder();
+                    break;
+                case 7:
+                    SwapTwoNumber swaptwonumber = new SwapTwoNumber();
+                    swaptwonumber.SwapTwoNumbers();
                     break;
 
 
