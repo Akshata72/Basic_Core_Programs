@@ -11,6 +11,7 @@
             Console.WriteLine("Choose 3 for Power of 2");
             Console.WriteLine("Choose 4 for Harmonics");
             Console.WriteLine("Choose 5 for Factors");
+            Console.WriteLine("Choose 6 for  QuotientAndRemainder ");
 
 
             int Option = int.Parse(Console.ReadLine());
@@ -21,8 +22,6 @@
                     FlipCoin flipCoin = new FlipCoin();
                     flipCoin.FlipCoins();
                     break;
-
-
                 case 2:
                     LeapYear leapyear = new LeapYear();
                     leapyear.LeapYears();
@@ -39,7 +38,10 @@
                     Factors factor = new Factors();
                     factor.Factor();
                     break;
-
+                case 6:
+                    QuotientAndRemainder quotientremainder = new QuotientAndRemainder();
+                    quotientremainder.QuotientRemainder();
+                    break;
 
 
             }
