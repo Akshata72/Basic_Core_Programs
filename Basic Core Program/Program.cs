@@ -9,7 +9,8 @@
             Console.WriteLine("Choose 1 for FlipCoin");
             Console.WriteLine("Choose 2 for LeapYear");
             Console.WriteLine("Choose 3 for Power of 2");
-            Console.WriteLine("Choose 3 for Harmonics");
+            Console.WriteLine("Choose 4 for Harmonics");
+            Console.WriteLine("Choose 5 for Factors");
 
 
             int Option = int.Parse(Console.ReadLine());
@@ -34,7 +35,10 @@
                     Harmonics harmonic = new Harmonics();
                     harmonic.Harmonic();
                     break;
-
+                case 5:
+                    Factors factor = new Factors();
+                    factor.Factor();
+                    break;
 
 
 
