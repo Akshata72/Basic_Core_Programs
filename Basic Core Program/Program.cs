@@ -14,6 +14,7 @@
             Console.WriteLine("Choose 6 for  QuotientAndRemainder ");
             Console.WriteLine("Choose 7 for Swap two numbers");
             Console.WriteLine("Choose 8 for check Even or Odd number");
+            Console.WriteLine("Choose 9 for Check Letter is vowel");
 
 
             int Option = int.Parse(Console.ReadLine());
@@ -51,6 +52,10 @@
                 case 8:
                     EvenOrOdd evenorodd = new EvenOrOdd();
                     evenorodd.EvenorOdd();
+                    break;
+                case 9:
+                    Alphabets alphabets = new Alphabets();
+                    alphabets.Alphabet();
                     break;
 
 
