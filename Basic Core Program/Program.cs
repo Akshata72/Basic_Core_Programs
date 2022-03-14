@@ -13,6 +13,7 @@
             Console.WriteLine("Choose 5 for Factors");
             Console.WriteLine("Choose 6 for  QuotientAndRemainder ");
             Console.WriteLine("Choose 7 for Swap two numbers");
+            Console.WriteLine("Choose 8 for check Even or Odd number");
 
 
             int Option = int.Parse(Console.ReadLine());
@@ -46,6 +47,10 @@
                 case 7:
                     SwapTwoNumber swaptwonumber = new SwapTwoNumber();
                     swaptwonumber.SwapTwoNumbers();
+                    break;
+                case 8:
+                    EvenOrOdd evenorodd = new EvenOrOdd();
+                    evenorodd.EvenorOdd();
                     break;
 
 
