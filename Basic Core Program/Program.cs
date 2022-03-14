@@ -15,7 +15,7 @@
             Console.WriteLine("Choose 7 for Swap two numbers");
             Console.WriteLine("Choose 8 for check Even or Odd number");
             Console.WriteLine("Choose 9 for Check Letter is vowel");
-
+            Console.WriteLine("Choose 10 for Check largest numbers");
 
             int Option = int.Parse(Console.ReadLine());
 
@@ -56,6 +56,10 @@
                 case 9:
                     Alphabets alphabets = new Alphabets();
                     alphabets.Alphabet();
+                    break;
+                case 10:
+                    LargestNumber largestnumber = new LargestNumber();
+                    largestnumber.Largestnumber();
                     break;
 
 
